@@ -1,0 +1,6 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2334
+
+backup.vim stores backups out of the way in the ~/.vim_plugins/vim_backup directory.
+
+Each file is split into it&#039s file name and path, the md5sum of the path is used to create a unique subfolder in ~/.vim_plugins/vim_backup, and the files are backed up into that folder.  This ensures that your files are backed up, that your directories are not cluttered with *~ files, and that each file that you edit has it&#039s own unique backup.
+
